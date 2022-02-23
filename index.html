@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <!-- displays site properly based on user's device -->
+    <meta
+      property="og:description"
+      content="this is a frontendmentor Code Challenge, Rock Paper Scissors Lizard Spock"
+    />
+    <meta
+      name="description"
+      content="this is a frontendmentor Code Challenge, candidate: John Ross Phillips,
+      www.johnrossphillips.com, Github: TheCrowdedAstronaut"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon.ico"
+    />
+
+    <title>
+      Frontend Mentor | Rock, Paper, Scissors, Lizard, Spock
+    </title>
+
+    <!-- Score Rules You Picked The House Picked You Win You Lose
+    Play Again -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./scripts/scripts.js" defer></script>
+  </head>
+  <body>
+    <div class="app_container">
+      <div class="scoreboard_container">
+        <div class="heading">
+          <h1>
+            <span> Rock </span>
+            <span> Paper </span>
+            <span> Scissors </span>
+            <span> Lizard </span>
+            <span> Spock </span>
+          </h1>
+        </div>
+        <div class="score_container">
+          <h2>Score</h2>
+          <p id="score">23</p>
+        </div>
+      </div>
+      <div class="game_wrapper">
+        <div class="game_container">
+          <div class="box hidden">1</div>
+          <div class="box hidden">2</div>
+          <div class="box btn-circle" id="rock">
+            <a href="" role="button">
+              <img
+                src="./assets/images/the-rock-btn.png"
+                width="100%"
+                height="100%"
+                alt="the rock button"
+              />
+            </a>
+          </div>
+          <div class="box hidden">4</div>
+          <div class="box hidden">5</div>
+          <div class="box hidden">6</div>
+          <div class="box hidden">7</div>
+          <div class="box hidden">8</div>
+          <div class="box hidden">9</div>
+          <div class="box hidden">10</div>
+          <div class="box btn-circle" id="lizard">
+            <a href="" role="button">
+              <img
+                src="./assets/images/lizard-btn.png"
+                alt=""
+                width="100%"
+                height="100%"
+              />
+            </a>
+          </div>
+          <div class="box hidden">12</div>
+          <div class="box polygon">
+            <img
+              src="./assets/images/polygon-background.png"
+              alt=""
+            />
+            <!-- <img src="./assets/images/polygon-background.svg" alt="" /> -->
+          </div>
+          <div class="box hidden">14</div>
+          <div class="box btn-circle" id="paper">
+            <a href="" role="button">
+              <img
+                src="./assets/images/paper-btn.png"
+                alt=""
+                width="100%"
+                height="100%"
+              />
+            </a>
+          </div>
+          <div class="box hidden">16</div>
+          <div class="box hidden">17</div>
+          <div class="box hidden">18</div>
+          <div class="box hidden">19</div>
+          <div class="box hidden">20</div>
+          <div class="box hidden">21</div>
+          <div class="box btn-circle" id="spock">
+            <a href="" role="button">
+              <img
+                src="./assets/images/spock-btn.png"
+                alt=""
+                width="100%"
+                height="100%"
+              />
+            </a>
+          </div>
+          <div class="box hidden">23</div>
+          <div class="box btn-circle" id="scissors">
+            <a href="" role="button">
+              <img
+                src="./assets/images/scissors-btn.png"
+                alt=""
+                width="100%"
+                height="100%"
+              />
+            </a>
+          </div>
+          <div class="box hidden">25</div>
+        </div>
+        <div class="rules-btn">
+          <div class="interior">
+            <a class="btn" href="#open-modal"
+              ><img
+                src="./assets/images/rules-btn.png"
+                alt=""
+            /></a>
+          </div>
+        </div>
+        <div id="open-modal" class="modal-window">
+          <div>
+            <a href="#" title="Close" class="modal-close"
+              >Close</a
+            >
+            <div>
+              <img
+                src="./assets/images/rules-modal-mobile.svg"
+                width="90%"
+                height="90%"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- </main> -->
+
+      <footer class="attribution">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.johnrossphillips.com"
+          >Ross Phillips</a
+        >.
+      </footer>
+    </div>
+  </body>
+</html>

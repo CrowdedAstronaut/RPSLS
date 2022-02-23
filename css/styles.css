@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+h1 {
+  color: white;
+}
+
+.score_container {
+  background-color: white;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Luckiest Guy";
+  padding: 1%;
+}
+
+html {
+  font-size: calc(9px + 1vmin);
+  background-color: black;
+  background-image: url("../assets/images/background-text.svg");
+  object-fit: cover;
+}
+
+h1 {
+  color: white;
+}
+
+.score_container {
+  background-color: white;
+}
+
+h1 {
+  color: white;
+}
+
+.score_container {
+  background-color: white;
+}
+
+body {
+  width: clamp(375px, 99%, 1200px);
+  padding: 0;
+  height: 100vh;
+}
+body .app_container {
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+  flex-direction: column;
+}
+body .app_container .scoreboard_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid grey;
+  border-radius: 0.31rem;
+  margin: 9% 9% 0% 9%;
+}
+body .app_container .scoreboard_container .heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1rem;
+}
+body .app_container .scoreboard_container .heading h1 {
+  font-size: 100%;
+}
+body .app_container .scoreboard_container .heading span {
+  display: block;
+  font-size: 100%;
+}
+body .app_container .scoreboard_container .score_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2% 2% 2%;
+}
+body .app_container .scoreboard_container .score_container h2 {
+  margin: 0;
+  padding: 1rem 1rem;
+  font-size: 90%;
+}
+body .app_container .scoreboard_container .score_container #score {
+  font-size: 2.5rem;
+  margin: 0;
+}
+body .app_container .polygon {
+  color: black;
+  background-color: black;
+}
+body .app_container .box {
+  border-radius: 0.31rem;
+  font-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .app_container .hidden {
+  visibility: hidden;
+}
+
+.polygon {
+  color: black;
+  background-color: black;
+}
+
+.box {
+  border-radius: 0.31rem;
+  font-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.game_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+}
+.game_wrapper .game_container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.modal-window {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.25);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+.modal-window:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+.modal-window > div {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2em;
+}
+.modal-window .modal-window {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.25);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+.modal-window .modal-window:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+.modal-window .modal-window > div {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2em;
+}
+.modal-window .modal-close {
+  color: #aaa;
+  background-color: purple;
+  line-height: 50px;
+  font-size: 90%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+}
+.modal-window .modal-close:hover {
+  color: black;
+}
+.modal-window .rules-btn {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+.modal-window .modal-window > div {
+  border-radius: 1rem;
+}
+.modal-window .modal-window div:not(:last-of-type) {
+  margin-bottom: 15px;
+}
+.modal-window small {
+  color: lightgray;
+}
+.modal-window .btn {
+  padding: 1em 1.5em;
+  text-decoration: none;
+}
+.modal-window .btn i {
+  padding-right: 0.3em;
+}
+
+.attribution {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 5%;
+  padding: 0;
+  font-size: 0.8rem;
+}
+.attribution a {
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
