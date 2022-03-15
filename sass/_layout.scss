@@ -2,10 +2,6 @@
 @import "typography";
 
 body {
-  width: clamp(375px, 99%, 1200px);
-  padding: 0;
-  height: 100vh;
-
   .app_container {
     display: flex;
     justify-content: center;
