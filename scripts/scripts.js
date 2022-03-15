@@ -19,59 +19,14 @@ function randomChoice() {
     Math.floor(Math.random() * choices.length)
   ];
 }
+window.addEventListener("load", () => {
+  let userChoice = "";
 
-// function checkWinner(playerChoice, computerChoice) {
-//   computerChoice = randomChoice();
-//   randomChoice();
-//   if (playerChoice === computerChoice) {
-//     // document.getElementById("status").innerHTML +=
-//     console.log("You tied");
-//   } else if (
-//     (playerChoice === choices[1] &&
-//       (computerChoice === choices[0] ||
-//         computerChoice === choices[4] ||
-//         computerChoice === choices[2] ||
-//         computerChoice === choices[3])) ||
-//     (playerChoice === choices[3] &&
-//       (computerChoice === choices[4] ||
-//         computerChoice === choices[1])) ||
-//     (playerChoice === choices[4] &&
-//       (computerChoice === choices[2] ||
-//         computerChoice === choices[0]))
-//   ) {
-//     // document.getElementById("status").innerHTML +=
-//     //   "You win! :) ";
-//     console.log("You Win");
-//     // updateScore(1);
-//   } else {
-//     // document.getElementById("status").innerHTML +=
-//     //   "You lose. :(";
-//     // updateScore(-1);
-//     console.log("You Lose");
-//   }
-// }
-//   function updateScore(value) {
-//     score += value;
-//     scoreDisplay.textContent = score;
-//     return score;
-//   }
-// }
-// console.log(playerChoice);
+  document
+    .querySelectorAll(".user-choice .game-card")
+    .forEach((card) => {
+      card.addEventListener("click", (ev) => {});
+    });
+});
 
-// add event listeners to buttons
-// for (let i = 0; i < buttons.length; i++) {
-//   buttons[i].addEventListener(
-//     "click",
-//     checkWinner.bind(
-//       null,
-//       console.log("you clicked on " + choices[i])
-//     )
-//   );
-// }
-
-// // Event listeners
-// choices.forEach((choice) =>
-//   choice.addEventListener("click", play)
-// );
-// window.addEventListener("click", clearModal);
-// restart.addEventListener("click", restartGame);
+function startGame() {}

@@ -1,15 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
-h1 {
-  color: white;
-}
-
 .score_container {
   background-color: white;
-}
-
-h1 {
-  color: white;
 }
 
 .score_container {
@@ -38,6 +30,7 @@ body .app_container .scoreboard_container .heading {
 }
 body .app_container .scoreboard_container .heading h1 {
   font-size: 100%;
+  color: white;
 }
 body .app_container .scoreboard_container .heading span {
   display: block;
@@ -244,6 +237,7 @@ body {
     5. Improve text rendering
   */
 body {
+  line-height: 1.5;
   font-family: "Luckiest Guy";
   padding: 1%;
   -webkit-font-smoothing: antialiased;
